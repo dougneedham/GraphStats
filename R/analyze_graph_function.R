@@ -1,5 +1,7 @@
-library(igraph)
 analyze.graph <- function(reference.graph) {
+  if(require(igraph)) {
+
+  } else { print("igraph is required")}
   node <- data.frame(node = unlist(list(V(reference.graph)$name))
                          ,In = unlist(list(degree(reference.graph,mode="in")))
                          ,Out = unlist(list(degree(reference.graph,mode="out")))

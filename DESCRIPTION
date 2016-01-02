@@ -15,3 +15,4 @@ Description: Pass in a graph object, and three data frames are created: gs.node,
       Average Degree,Average Weighted Degree,Diameter, Density, Modularity, ConnectedComponents,AveragePathLength
 License: MIT
 LazyData: TRUE
+Imports: igraph
