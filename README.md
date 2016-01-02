@@ -12,8 +12,8 @@ Calling analyze.graph(graph) will return a list of data frames:
 The data frame structure for node is: 
 
 
-|Node| In| Out     | Degree |
-|------| --- |--- |-----|
+|Node| In| Out | Degree |
+|----| --- |--- |-----|
 |1      |0 |Directed |1|
 
 
