@@ -13,8 +13,8 @@ The data frame structure for node is:
 
 
 |Node| In| Out | Degree |
-|----| --- |--- |-----|
-|1      |0 |Directed |1|
+|----| --- |---| -------|
+|1   |   0 |  1|       1|
 
 
 - Node is the name of the node.
