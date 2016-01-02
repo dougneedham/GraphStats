@@ -2,7 +2,7 @@ analyze.graph <- function(reference.graph) {
   if(require(igraph)) {
 
   } else { print("igraph is required")}
-  node <- data.frame(node = unlist(list(V(reference.graph)$name))
+  node <- data.frame(Node = unlist(list(V(reference.graph)$name))
                          ,In = unlist(list(degree(reference.graph,mode="in")))
                          ,Out = unlist(list(degree(reference.graph,mode="out")))
                          ,Degree = unlist(list(degree(reference.graph,mode="total")))
@@ -12,8 +12,10 @@ analyze.graph <- function(reference.graph) {
                          ,PageRank = unlist(list(page.rank(reference.graph)$vector))
                          )
   graph <- data.frame(Nodes = length(V(reference.graph))
-                          ,edges = length(E(reference.graph))
+                          ,Edges = length(E(reference.graph))
                           ,AverageDegree = mean(node$Degree)
+                          ,AverageInDegree = mean(node$In)
+                          ,AverageOutDegree = mean(node$Out)
                           ,Density = 2*length(E(reference.graph))/(length(V(reference.graph))*length(V(reference.graph))-length(V(reference.graph)))
                           ,Diameter = diameter(reference.graph)
                           )

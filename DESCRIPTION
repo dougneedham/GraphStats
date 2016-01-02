@@ -1,7 +1,7 @@
 Package: GraphStats
 Type: Package
 Title: Create data frames based on iGraph graphs
-Version: 0.1
+Version: 0.3
 Date: 2016-01-01
 Author: Doug Needham
 Maintainer: Doug Needham <dougthedataguy@gmail.com>

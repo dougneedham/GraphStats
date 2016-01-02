@@ -6,6 +6,7 @@
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Produce summary statistics in data frames for igraph networks
 }
 \usage{
 analyze.graph(reference.graph)
@@ -42,15 +43,8 @@ analyze.graph(reference.graph)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (reference.graph)
-{
-    print("analyze.graph")
-  }
+LesMis <- graph.data.frame(Gephi.LesMiserables)
+lm <- analyze.graph(LesMis)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
