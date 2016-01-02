@@ -36,9 +36,9 @@ The data frame structure for node is:
 - Weight weight of the individual edge
 
      
-Nodes Edges AverageDegree Density    Diameter
------ ----- ------------- ---------- --------
-   77   254     6.597403  0.08680793        5
+|Nodes| Edges |AverageDegree |Density |   Diameter
+|----- |-----| -------------| ---------- |--------
+|   77  | 254|     6.597403 | 0.08680793|        5
 
 - Nodes is the number of nodes in the graph
 - Edges is the number of edges in the graph
