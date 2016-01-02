@@ -1,0 +1,17 @@
+Package: GraphStats
+Type: Package
+Title: Create data frames based on iGraph graphs
+Version: 0.1
+Date: 2016-01-01
+Author: Doug Needham
+Maintainer: Doug Needham <dougthedataguy@gmail.com>
+Description: Pass in a graph object, and three data frames are created: gs.node,gs.edge,gs.graph.
+  These dataframes will ultimately contain the following statistics:
+    Node data frame structure:
+      NodeLabel,In,Out,Degree,PR,Modularity Class,BetweenNessCentrality,WeightedDegree,EigenvectorCentrality,Triangle
+    Edge data frame structure:
+      Edge_Label,Source,Target,Type,Weight
+    Graph Data frame:
+      Average Degree,Average Weighted Degree,Diameter, Density, Modularity, ConnectedComponents,AveragePathLength
+License: MIT
+LazyData: TRUE
