@@ -23,9 +23,10 @@ Node In Out Degree WeightedDegree EigenCentrality Betweenness PageRank
 - Betweenness This is the number of shortest paths that go through this node. 
 - PageRank This is the pagerank score of this particular node (https://en.wikipedia.org/wiki/PageRank)
 
-Source Target Type     Weight
------- ------ -------- -----
-     1      0 Directed 1
+
+|Source| Target| Type     |Weight|
+|------| ------ |-------- |-----|
+|1      |0 |Directed |1|
 
 - Source is the source node
 - Target is the target node
