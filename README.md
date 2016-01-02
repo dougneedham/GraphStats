@@ -19,6 +19,8 @@ The data frame structure for node is:
 |Node| In| Out     |Degree|WeightedDegree| EigenCentrality |Betweenness |PageRank|
 |------| -- |----- |------| -------------- |---------------| ----------- |--------|
 |1      |0 |1 |1|             1|     0.007372396|    0.000000| 0.004003801|
+
+
 - Node is the name of the node.
 - In is the in-degree, or number of incoming connections. (Number of nodes connected to this node)
 - Out is the out-degree, or number of outgoing connections. (Number this node is connected to)
