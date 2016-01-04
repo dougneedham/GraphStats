@@ -47,8 +47,8 @@ The data frame structure for node is:
 
 
 ## Examples
+```R
 library(igraph)
-
 LesMis <- graph.data.frame(Gephi.LesMiserables)
-
 lm <- analyze.graph(LesMis)
+```
